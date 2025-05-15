@@ -1,0 +1,34 @@
+---
+# Dummy
+---
+
+@import "minima";
+
+.stylized-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .paper-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .authors {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .affiliations {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .conference {
+    font-size: 1rem;
+    font-style: italic;
+    color: #777;
+  }
+}
