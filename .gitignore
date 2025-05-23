@@ -6,3 +6,4 @@ _site
 vendor
 # Added
 Gemfile.lock
+.DS_Store
