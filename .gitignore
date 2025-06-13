@@ -7,3 +7,5 @@ vendor
 # Added
 Gemfile.lock
 .DS_Store
+assets/audio/**/*.wav
+assets/images/**/*.pdf
