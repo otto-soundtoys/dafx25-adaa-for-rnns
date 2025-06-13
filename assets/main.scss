@@ -4,6 +4,7 @@
 
 @import "minima";
 
+/* TITLE */
 .stylized-title {
   text-align: center;
   margin-top: 30px;
@@ -33,7 +34,47 @@
   }
 }
 
+/* CONTENT */
 .abstract {
     text-align: justify;
     margin-bottom: 10px
+}
+
+
+.fig-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.fig-1col {
+  flex: 1 1 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fig-2col {
+  flex: 1 1 45%;
+  max-width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fig-1col img,
+.fig-2col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fig-caption {
+  text-align: center;
+  font-size: 0.95em;
+  color: #666;
+  margin-top: 0.5em;
 }
