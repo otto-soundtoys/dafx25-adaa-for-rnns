@@ -41,6 +41,13 @@ $content-width: 1024px;
     margin-bottom: 10px
 }
 
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  opacity: 0.75;
+  margin: 2em 0;
+  width: 100%;
+}
 
 .fig-row {
   display: flex;

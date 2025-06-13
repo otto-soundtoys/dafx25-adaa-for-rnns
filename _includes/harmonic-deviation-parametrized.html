@@ -1,0 +1,16 @@
+{% assign img_path_2 = '/assets/images/' | append: include.model_type | append: '-' | append: include.model_n | append: '/snr_analysis/snr_analysis-example_60-88200-rnnupsampled-' | append: include.model_type | append: '-' | append: include.model_n | append: '.png' %}
+{% assign img_path_4 = '/assets/images/' | append: include.model_type | append: '-' | append: include.model_n | append: '/snr_analysis/snr_analysis-example_60-176400-rnnupsampled-' | append: include.model_type | append: '-' | append: include.model_n | append: '.png' %}
+
+{% assign caption_2 = '(' | append: include.model_type | upcase | append: ', OS=2)' %}
+{% assign caption_4 = '(' | append: include.model_type | upcase | append: ', OS=4)' %}
+
+<div class="fig-row">
+    {% include fig-2col.html
+    src=img_path_2
+    caption=caption_2
+    %}
+    {% include fig-2col.html
+    src=img_path_4
+    caption=caption_4
+    %}
+</div>

@@ -1,0 +1,18 @@
+{% assign img_path = '/assets/images/'
+| append: include.model_type
+| append: '-'
+| append: include.model_n
+| append: '/snr_analysis/snr_analysis-results-rnnupsampled-'
+| append: include.model_type
+| append: '-'
+| append: include.model_n
+| append: '.png'
+%}
+{% assign caption = '(' | append: include.model_type | upcase | append: ')' %}
+
+<div class="fig-row">
+    {% include fig-2col.html
+    src=img_path
+    caption=caption
+    %}
+</div>

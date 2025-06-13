@@ -1,0 +1,75 @@
+<!-- OS 1 -->
+{% assign img_path_os1_rnn = '/assets/images/lstm-' | append: include.model_n | append: '/sweeps/debug_plot_RNN, LSTM, '
+| append: include.model_name | append: ', OS=1.png' %}
+{% assign audio_path_os1_rnn = '/assets/audio/lstm-' | append: include.model_n | append: '/sweeps/0_RNN-LSTM-' | append:
+include.model_name | append: '-OS=1_44kHz_stereo.wav' %}
+
+<div class="fig-row">
+    {% include fig-2col.html
+    src=img_path_os1_rnn
+    caption='(RNN, OS=1)'
+    audio=audio_path_os1_rnn
+    %}
+</div>
+<hr class="divider">
+
+<!-- OS 2 -->
+{% assign img_path_os2_rnn = '/assets/images/lstm-' | append: include.model_n | append: '/sweeps/debug_plot_RNN, LSTM, '
+| append: include.model_name | append: ', OS=2.png' %}
+{% assign audio_path_os2_rnn = '/assets/audio/lstm-' | append: include.model_n | append: '/sweeps/0_RNN-LSTM-' | append:
+include.model_name | append: '-OS=2_88kHz_stereo.wav' %}
+
+{% assign img_path_os2_adaarnn1 = '/assets/images/lstm-' | append: include.model_n | append:
+'/sweeps/debug_plot_ADAARNN, LSTM, ' | append: include.model_name | append: ', order=1, OS=2.png' %}
+{% assign audio_path_os2_adaarnn1 = '/assets/audio/lstm-' | append: include.model_n | append: '/sweeps/0_ADAARNN-LSTM-'
+| append: include.model_name | append: '-order=1-OS=2_88kHz_stereo.wav' %}
+
+<div class="fig-row">
+    {% include fig-2col.html
+    src=img_path_os2_rnn
+    caption='(RNN, OS=2)'
+    audio=audio_path_os2_rnn
+    %}
+    {% include fig-2col.html
+    src=img_path_os2_adaarnn1
+    caption='(ADAARNN, order=1, OS=2)'
+    audio=audio_path_os2_adaarnn1
+    %}
+</div>
+<hr class="divider">
+
+<!-- OS 4 -->
+{% assign img_path_os4_rnn = '/assets/images/lstm-' | append: include.model_n | append: '/sweeps/debug_plot_RNN, LSTM, '
+| append: include.model_name | append: ', OS=4.png' %}
+{% assign audio_path_os4_rnn = '/assets/audio/lstm-' | append: include.model_n | append: '/sweeps/0_RNN-LSTM-' | append:
+include.model_name | append: '-OS=4_176kHz_stereo.wav' %}
+
+{% assign img_path_os4_adaarnn1 = '/assets/images/lstm-' | append: include.model_n | append:
+'/sweeps/debug_plot_ADAARNN, LSTM, ' | append: include.model_name | append: ', order=1, OS=4.png' %}
+{% assign audio_path_os4_adaarnn1 = '/assets/audio/lstm-' | append: include.model_n | append: '/sweeps/0_ADAARNN-LSTM-'
+| append: include.model_name | append: '-order=1-OS=4_176kHz_stereo.wav' %}
+
+{% assign img_path_os4_adaarnn2 = '/assets/images/lstm-' | append: include.model_n | append:
+'/sweeps/debug_plot_ADAARNN, LSTM, ' | append: include.model_name | append: ', order=2, OS=4.png' %}
+{% assign audio_path_os4_adaarnn2 = '/assets/audio/lstm-' | append: include.model_n | append: '/sweeps/0_ADAARNN-LSTM-'
+| append: include.model_name | append: '-order=2-OS=4_176kHz_stereo.wav' %}
+
+<div class="fig-row">
+    {% include fig-2col.html
+    src=img_path_os4_rnn
+    caption='(RNN, OS=4)'
+    audio=audio_path_os4_rnn
+    %}
+    {% include fig-2col.html
+    src=img_path_os4_adaarnn1
+    caption='(ADAARNN, order=1, OS=4)'
+    audio=audio_path_os4_adaarnn1
+    %}
+</div>
+<div class="fig-row">
+    {% include fig-2col.html
+    src=img_path_os4_adaarnn2
+    caption='(ADAARNN, order=2, OS=4)'
+    audio=audio_path_os4_adaarnn2
+    %}
+</div>
