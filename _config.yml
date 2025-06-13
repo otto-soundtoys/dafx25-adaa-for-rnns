@@ -14,8 +14,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username: jekyll
-# header_pages:
-#   - empty
+header_pages:
+  # - about.markdown
+  - index.markdown
+  - additional_results.markdown
 
 # BUILD
 theme: minima # others: minimal-mistakes-jekyll, jekyll-theme-minimal

@@ -1,12 +1,11 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Main
 ---
 
-# Table of Contents
-
+Table of Contents:
 - [Abstract](#abstract)
 - [Results](#results)
   - [Signal-to-Aliasing Noise (SNRA)](#signal-to-aliasing-noise-snra)
@@ -28,14 +27,6 @@ Neural networks have become invaluable for general audio processing tasks, such 
 ## Harmonic Deviation
 
 {% include harmonic-deviation-main.html %}
-
-## Sweeps
-
-Sweeps.
-
-## Sound Examples
-
-Sound examples.
 
 # Citation
 
