@@ -5,7 +5,6 @@ layout: home
 title: Main
 ---
 
-Table of Contents:
 - [Abstract](#abstract)
 - [Results](#results)
   - [Signal-to-Aliasing Noise (SNRA)](#signal-to-aliasing-noise-snra)
