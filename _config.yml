@@ -10,7 +10,7 @@ title: DAFx25 - Antiderivative Antialiasing for Recurrent Neural Networks
 email: otto@soundtoys.com
 description: >- # this means to ignore newlines until "baseurl:"
   Accompanying webpage for article "Antiderivative Antialiasing for Recurrent Neural Networks" in Proc. DAFx25.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/dafx25-adaa-for-rnns" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username: jekyll
