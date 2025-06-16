@@ -2,7 +2,7 @@
 
 This repo contains the accompanying webpage for the DAFx25 paper *"Antiderivative Antialiasing for Recurrent Neural Networks"*
 
-## Development
+## (Local) Development
 
 ### Setup
 
@@ -27,14 +27,3 @@ bundle install
 ```
 
 Edited `_config.yml`? Restart webserver (above).
-
-Check gem info
-```bash
-bundle info <GEM> <OPTARGS>
-```
-
-Workflow: Check gem-based theme properties
-```bash
-tree $(bundle info --path <GEM>) -L 2
-```
-
